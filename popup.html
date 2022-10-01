@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <title>crumbly</title>
+    <style>
+    body {
+      overflow: hidden;
+      margin: 5px 0px;
+      padding: 0px;
+      background: #2a2a2a;
+    }
+
+    div:first-child {
+      margin-top: 0px;
+    }
+
+    div {
+      cursor: pointer;
+      text-align: center;
+      padding: 5px 7px;
+      font-size: small;
+      font-family: "Roboto","LocalRoboto","Helvetica Neue","Helvetica","sans-serif";
+      width: 150px;
+      margin: 3px 0px 3px 0px;
+      background: #323231;
+    }
+
+    div:hover {
+      background: #ff7b00;
+    }
+
+    .black {
+      color: #e0e0e0;
+    }
+    </style>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div class="black" id="search1">Search For Selected Text</div>
+    <div class="black" id="search2">Search with Quotes</div>
+    <div class="black" id="search3">Search For Definition</div>
+    <div class="black" id="search4">Search For Class</div>
+    <div class="black" id="open1">Open Direct Link to Line</div>
+  </body>
+</html>

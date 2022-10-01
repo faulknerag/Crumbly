@@ -1,0 +1,30 @@
+{
+    "background": {
+        "scripts": ["Background.js"],
+        "persistent":true
+    },
+    "content_scripts": [ {
+        "js": ["crumbly.js"],
+        "matches": ["https://*.visualstudio.com/*", "https://dev.azure.com/*"]
+     } ],
+    "name": "Crumbly",
+    "description": "Make Visual Studio Online Easier to Use",
+    "version": "1.0",
+    "permissions": [
+        "activeTab", "contextMenus", "tabs", "webNavigation" , "downloads"
+    ],
+    "web_accessible_resources": [],
+    "browser_action": {
+        "default_title": "crumbly",
+        "default_icon": "/icons/icon.png",
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 2,
+    "commands": {
+        "_execute_browser_action": {
+            "suggested_key": {
+                "default": "Ctrl+Space"
+            }
+        }
+    }
+}
