@@ -2,8 +2,8 @@
 Crumbly is a Chrome extension that enhances the Azure DevOps online code search functionality.
 
 Crumbly makes it easy to search through code in the Azure DevOps online code editor by adding navigation buttons to search for any selected text *in a new browser tab*:
-![image](https://user-images.githubusercontent.com/20804273/193429020-774f45b4-bb12-4b6b-90c8-31d4d4afaa6a.png)
-![image](https://user-images.githubusercontent.com/20804273/193429129-c1e4962a-6915-496f-8bd7-affdf3fae675.png)
+![image](Images/Image1.png?raw=true)
+![image](Images/Image2.png?raw=true)
 
 # Features
 * **Search for Selected Text**: Search for selected text in a new browser tab
